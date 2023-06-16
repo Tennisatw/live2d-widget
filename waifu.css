@@ -27,6 +27,7 @@
 	left: 300px;
 	line-height: 0;
 	margin-bottom: 290px;
+	margin-left: 200px;
 	position: fixed;
 	transform: translateY(3px);
 	transition: transform .3s ease-in-out, bottom 3s ease-in-out;
