@@ -35,7 +35,7 @@ if (screen.width >= 200) {
 		initWidget({
 			waifuPath: live2d_path + "waifu-tips.json",
 			//apiPath: "https://live2d.fghrsh.net/api/",
-			cdnPath: "https://fastly.jsdelivr.net/gh/tennisatw/live2d-widget@1.16/live2d_api/",
+			cdnPath: "https://fastly.jsdelivr.net/gh/tennisatw/live2d-widget@1.16/live2d-api/",
 			//cdnPath2: "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/",
 			tools: ["switch-model", "switch-texture", "photo", "info", "quit"]
 		});
