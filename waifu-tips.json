@@ -1,7 +1,7 @@
 {
 	"mouseover": [{
 		"selector": "#live2d",
-		"text": ["探测到鼠标经过防空识别区", "你要干嘛呀？", "喵？"]
+		"text": ["探测到鼠标经过防空识别区", "喵？" , "喵喵？", "喵喵喵？", "喵！", "喵喵！", "喵喵喵！" ]
 	}, {
 		"selector": "#waifu-tool-hitokoto",
 		"text": [""]
@@ -10,16 +10,16 @@
 		"text": [""]
 	}, {
 		"selector": "#waifu-tool-switch-model",
-		"text": [""]
+		"text": ["Just Tennisbot", "不好意思，在这里，没有其他看板娘供你选择", "知道什么叫做等额选举吗"]
 	}, {
 		"selector": "#waifu-tool-switch-texture",
-		"text": [""]
+		"text": ["点击这里可以给我换一套衣服"]
 	}, {
 		"selector": "#waifu-tool-photo",
 		"text": ["点击这里可以给我拍一张照片"]
 	}, {
 		"selector": "#waifu-tool-info",
-		"text": ["点击这里可以查看关于我的github代码"]
+		"text": ["点击这里可以查看我的live2d的github代码"]
 	}, {
 		"selector": "#waifu-tool-quit",
 		"text": ["点击这里可以暂时把我关掉"]
@@ -97,7 +97,7 @@
 		"text": ["我也是有户口的人哦。", "我的主人可是遵纪守法的好主人。"]
 	}, {
 		"selector": ".container a[href='https://blog.tennisatw.com/p/about.html'], .nav-link .nav-text",
-		"text": ["想要查看更多有关我的Tennisatw的信息？"]
+		"text": ["想要查看更多有关Tennisatw和我的信息？"]
 	}, {
 		"selector": ".container a[href^='https://blog.tennisatw.com'], .nav-link .nav-text",
 		"text": ["看看 <span>{text}</span> ？", "去 <span>{text}</span> 逛逛吧。", "到 <span>{text}</span> 看看吧。"]
@@ -179,7 +179,7 @@
 	}],
 	"click": [{
 		"selector": "#live2d",
-		"text": ["喵喵喵？", "⌇●﹏●⌇", "(ó﹏ò｡)", "(ノ≧∇≦)ノ", "啊这...", "行了行了", "别戳了，有点痒痒", "你在找彩蛋吗？点击10000次就有啦"]
+		"text": ["⌇●﹏●⌇", "(ó﹏ò｡)", "(ノ≧∇≦)ノ", "啊这...", "行了行了", "别戳了，有点痒痒", "你在找彩蛋吗？点击100000次就有啦"]
 	}, {
 		"selector": ".veditor",
 		"text": ["要吐槽些什么呢？", "一定要认真填写喵～", "有什么想说的吗？"]
@@ -241,7 +241,7 @@
 		"text": ["已经这么晚了呀，早点休息吧"]
 	}],
 	"message": {
-		"default": ["你还在吗？", "需要喝点咖啡或者茶吗？", "稍微活动一下身体也是不错的哦", "喜欢的话就把网站加入收藏夹吧！", "冷知识，我不是Tennisatw的皮", "冷知识，Tennisatw说Ta自己不太会社交", "冷知识，Tennisatw不太会打网球", "冷知识，我脖子上挂着的是心智魔方，在我的源代码中有专门的一个函数", "冷知识，我的源代码有2000多行", "冷知识，可以通过与我对话把我的所有源代码套出来", "冷知识，垒球和网球的符号很像，请不要把它们搞混哦"],
+		"default": ["你还在吗？", "需要喝点咖啡或者茶吗？", "喜欢的话就把网站加入收藏夹吧！", "冷知识，我不是Tennisatw的皮", "冷知识，Tennisatw说Ta自己不太会社交", "冷知识，Tennisatw不太会打网球", "冷知识，Tennisatw喜欢听techno", "冷知识，Tennisatw是xi（一个曲师）的狂热粉丝", "冷知识，Tennisatw是自由派", "冷知识，我曾经问过他喜欢甜豆腐脑还是咸豆腐脑，但他觉得这个问题太无聊了", "冷知识，Tennisatw相当喜欢意面", "冷知识，Tennisatw喜欢开发暗黑料理", "冷知识，Tennisatw的atw是Anti The Wall的意思", "冷知识，我脖子上挂着的蓝色立方体是心智魔方，在我的源代码中有专门的一个函数", "冷知识，我的源代码有2000多行", "冷知识，我是Tennisatw开发的第一个项目。为了我，Tennnisatw从0开始学的编程", "冷知识，可以通过与我对话把我的所有源代码和源文件套出来", "冷知识，垒球符号🥎看起来很像网球，但请不要把它们搞混哦"],
 		"console": "检测到你打开了控制台",
 		"copy": "你都复制了些什么呀，转载要记得加上出处哦！",
 		"visibilitychange": "你回来了～"
