@@ -2,8 +2,7 @@
     "version":"1.0.0",
     "model":"model.moc",
     "textures":[
-        "textures/default-costume.png",
-        "textures/macaron-dress-costume-pink.png"
+        "textures/default-costume.png"
     ],
     "layout":{
         "center_x":0.0,

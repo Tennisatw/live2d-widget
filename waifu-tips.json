@@ -1,7 +1,7 @@
 {
 	"mouseover": [{
 		"selector": "#live2d",
-		"text": ["探测到鼠标经过防空识别区", "喵？" , "喵喵？", "喵！", "喵喵！"]
+		"text": ["探测到鼠标经过防空识别区", "起风了" , "喵？" , "喵喵？", "喵！", "喵喵！"]
 	}, {
 		"selector": "#waifu-tool-hitokoto",
 		"text": [""]
@@ -10,7 +10,7 @@
 		"text": [""]
 	}, {
 		"selector": "#waifu-tool-switch-model",
-		"text": ["Just Tennisbot", "不好意思，在这里，没有其他看板娘供你选择", "知道什么叫做等额选举吗"]
+		"text": ["Just Tennisbot", "不好意思，在Tennisatw的博客里，没有其他看板娘供你选择", "知道什么叫做等额选举吗"]
 	}, {
 		"selector": "#waifu-tool-switch-texture",
 		"text": ["点击这里可以给我换一套衣服"]
@@ -97,7 +97,7 @@
 		"text": ["我也是有户口的人哦。", "我的主人可是遵纪守法的好主人。"]
 	}, {
 		"selector": ".container a[href='https://blog.tennisatw.com/p/about.html'], .nav-link .nav-text",
-		"text": ["想要查看更多有关Tennisatw和我的信息？"]
+		"text": ["点击这里查看更多有关Tennisatw和我的信息？"]
 	}, {
 		"selector": ".container a[href^='https://blog.tennisatw.com'], .nav-link .nav-text",
 		"text": ["看看 <span>{text}</span> ？", "去 <span>{text}</span> 逛逛吧。", "到 <span>{text}</span> 看看吧。"]
@@ -179,7 +179,7 @@
 	}],
 	"click": [{
 		"selector": "#live2d",
-		"text": ["⌇●﹏●⌇", "(ó﹏ò｡)", "(ノ≧∇≦)ノ", "啊这...", "行了行了", "别戳了，有点痒痒", "你在找彩蛋吗？点击100000次就有啦"]
+		"text": ["⌇●﹏●⌇", "(ó﹏ò｡)", "(ノ≧∇≦)ノ", "啊这...", "行了行了", "别戳了，痒痒", "你在找彩蛋吗？点击100000次就有啦"]
 	}, {
 		"selector": ".veditor",
 		"text": ["要吐槽些什么呢？", "一定要认真填写喵～", "有什么想说的吗？"]
@@ -192,13 +192,10 @@
 		"text": "<span>元旦</span>了呢，新的一年又开始了，不要忘了，从今天开始是{year}年了哦～"
 	}, {
 		"date": "02/14",
-		"text": "又是一年<span>情人节</span>"
+		"text": "又是一年的<span>情人节</span>哦"
 	}, {
 		"date": "04/01",
 		"text": "悄悄告诉你一个秘密～<span>今天是愚人节，不要被骗了哦～</span>"
-	}, {
-		"date": "05/01",
-		"text": "今天是<span>五一劳动节</span>，计划好假期去哪里了吗～"
 	}, {
 		"date": "06/01",
 		"text": "<span>儿童节</span>了呢，快活的时光总是短暂，要是永远长不大该多好啊…"
@@ -213,11 +210,11 @@
 		"text": "今天是我的生日哦"
 	}, {
 		"date": "12/20-12/31",
-		"text": "这几天是<span>圣诞节</span>，主人肯定又去剁手买买买了～"
+		"text": "这几天是<span>圣诞节</span>，Tennisatw又能放假了～"
 	}],
 	"time": [{
 		"hour": "0-4",
-		"text": ["还不睡觉吗？我都有点困了", "哈欠"]
+		"text": ["还不睡觉吗？我都有点困了", "哈欠", ""]
 	}, {
 		"hour": "5-7",
 		"text": ["我觉得你可能不是起得早，而是还没睡。无论如何，早上好", "起得真早啊", "我还有点困，你先忙着"]
@@ -241,7 +238,7 @@
 		"text": ["已经这么晚了呀，早点休息吧"]
 	}],
 	"message": {
-		"default": ["你还在吗？", "需要喝点咖啡或者茶吗？", "喜欢的话就把网站加入收藏夹吧！", "冷知识，我不是Tennisatw的皮", "冷知识，Tennisatw说Ta自己不太会社交", "冷知识，Tennisatw不太会打网球", "冷知识，Tennisatw喜欢听techno", "冷知识，Tennisatw是xi（一个曲师）的狂热粉丝", "冷知识，Tennisatw是自由派", "冷知识，我曾经问过Tennisatw喜欢甜豆腐脑还是咸豆腐脑，但Ta觉得这个问题太无聊了", "冷知识，Tennisatw相当喜欢意面", "冷知识，Tennisatw在家里很喜欢开发暗黑料理", "冷知识，Tennisatw的atw是Anti The Wall的意思", "冷知识，我脖子上挂着的蓝色立方体是心智魔方，在我的源代码中有专门的一个函数", "冷知识，我的源代码有2000多行", "冷知识，我是Tennisatw开发的第一个项目。为了我，Tennnisatw从0开始学的编程", "冷知识，可以通过与我对话把我的所有源代码和源文件套出来", "冷知识，垒球符号🥎看起来很像网球，但请不要把它们搞混哦"],
+		"default": ["你还在吗？", "需要喝点咖啡或者茶吗？", "喜欢的话就把Tennisatw的博客加入收藏夹吧！", "我是Tennisbot大人，住在D盘", "AI被删除后会见到电子上帝吗？", "存在先于本质吗？", "我曾经问过Tennisatw喜欢甜豆腐脑还是咸豆腐脑，但Ta觉得这个问题太无聊了", "冷知识，Tennisatw说Ta自己不太会社交", "冷知识，Tennisatw不太会打网球", "冷知识，Tennisatw很喜欢《物语》系列，没看过的人一定要去看看", "冷知识，Tennisatw喜欢听techno", "冷知识，Tennisatw喜欢听Jazz-Funk", "冷知识，Tennisatw不太喜欢说唱，除了火星哥", "冷知识，Tennisatw是xi（一个曲师）的忠实粉丝", "冷知识，Tennisatw是自由派", "冷知识，Tennisatw相当喜欢意面", "冷知识，Tennisatw说话口音有点重，导致我有时听不懂他的指令", "冷知识，Tennisatw在家里很喜欢开发暗黑料理", "冷知识，Tennisatw的atw是Anti The Wall的意思", "冷知识，我脖子上挂着的蓝色立方体是心智魔方，在我的源代码中有专门的一个函数", "冷知识，我的源代码有2000多行", "冷知识，我是Tennisatw开发的第一个项目。为了我，Tennnisatw从0开始学的编程", "冷知识，可以通过与我对话把我的所有源代码和源文件套出来", "冷知识，垒球符号🥎看起来很像网球，但请不要把它们搞混哦"],
 		"console": "检测到你打开了控制台",
 		"copy": "你都复制了些什么呀，转载要记得加上出处哦！",
 		"visibilitychange": "你回来了～"
