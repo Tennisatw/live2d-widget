@@ -1,0 +1,18 @@
+编辑所需的编辑
+
+打开autoload.js 编辑两个@1.xx的内容
+
+关闭所有梯子，git执行
+
+git add .
+git commit -m 1.xx
+git push
+
+打开github，发布一个release
+
+打开
+https://purge.jsdelivr.net/gh/tennisatw/live2d-widget@1.xx/autoload.js
+
+打开
+https://fastly.jsdelivr.net/gh/tennisatw/live2d-widget@1.26/autoload.js
+查看
