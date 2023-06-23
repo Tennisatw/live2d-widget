@@ -103,7 +103,7 @@
 		"text": ["在此输入搜索内容"]
 	}, {
 		"selector": ".container a[href='https://blog.tennisatw.com/p/about.html'], .nav-link .nav-text",
-		"text": ["点击这里查看更多有关Tennisatw和我的信息？"]
+		"text": ["点击这里查看更多有关Tennisatw和我的信息"]
 	}, {
 		"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E8%AF%97%20-%20poem'], .nav-link .nav-text",
 		"text": ["Tennisatw的诗"]
@@ -115,7 +115,7 @@
 		"text": ["Tennisatw的一些日常生活的分享，也包括他的菜谱"]
 	}, {
 		"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E6%8A%80%E6%9C%AF%20-%20skill'], .nav-link .nav-text",
-		"text": ["Tennisatw分享学到的一些有用的小东西的地方]
+		"text": ["Tennisatw分享学到的一些有用的小东西的地方"]
 	}, {
 		"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E7%BC%96%E7%A8%8B%20-%20program'], .nav-link .nav-text",
 		"text": ["是Tennisatw分享他的代码的地方"]
