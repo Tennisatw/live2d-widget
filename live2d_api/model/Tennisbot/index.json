@@ -2,7 +2,7 @@
     "version":"1.0.0",
     "model":"model.moc",
     "textures":[
-        "textures/hood-costume-red.png"
+        "summer-uniform-costume-green.png"
     ],
     "layout":{
         "center_x":0.0,
