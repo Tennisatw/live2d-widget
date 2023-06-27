@@ -112,13 +112,13 @@
 		"text": ["Tennisatw的各种读后感，和科学/哲学/政治小随笔"]
 	}, {
 		"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E6%97%A5%E5%B8%B8%20-%20daily%20life'], .nav-link .nav-text",
-		"text": ["Tennisatw的一些日常生活的分享，也包括他的菜谱"]
+		"text": ["Tennisatw的一些日常生活的分享，也包括菜谱"]
 	}, {
 		"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E6%8A%80%E6%9C%AF%20-%20skill'], .nav-link .nav-text",
 		"text": ["Tennisatw分享学到的一些有用的小东西的地方"]
 	}, {
 		"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E7%BC%96%E7%A8%8B%20-%20program'], .nav-link .nav-text",
-		"text": ["是Tennisatw分享他的代码的地方"]
+		"text": ["Tennisatw分享代码的地方"]
 	}, {
 		"selector": ".container a[href^='https://blog.tennisatw.com'], .nav-link .nav-text",
 		"text": ["看看 <span>{text}</span> ？", "去 <span>{text}</span> 逛逛吧。", "到 <span>{text}</span> 看看吧。"]
@@ -256,7 +256,7 @@
 		"text": ["已经这么晚了呀，早点休息吧"]
 	}],
 	"message": {
-		"default": ["你还在吗？", "需要喝点咖啡或者茶吗？", "喜欢的话就把Tennisatw的博客加入收藏夹吧！", "AI被删除后会见到电子上帝吗？", "存在先于本质吗？", "我曾经问过Tennisatw喜欢甜豆腐脑还是咸豆腐脑，但Ta觉得这个问题太无聊了", "冷知识，我这里有数以千计的冷知识", "冷知识，Tennisatw说Ta自己不太会社交", "冷知识，Tennisatw不太会打网球", "冷知识，Tennisatw很喜欢《物语》系列，没看过的人一定要去看看", "冷知识，Tennisatw很喜欢《银魂》系列，没看过的人一定要去看看", "冷知识，Tennisatw喜欢听techno", "冷知识，Tennisatw喜欢听Jazz-Funk", "冷知识，Tennisatw不太喜欢听说唱，除了Bruno Mars", "冷知识，Tennisatw是xi（一个曲师）的忠实粉丝", "冷知识，Tennisatw是自由派", "冷知识，Tennisatw是智性恋", "冷知识，Tennisatw相当喜欢意面", "冷知识，Tennisatw喜欢喝英式红茶", "冷知识，Tennisatw喜欢和印度香料茶", "冷知识，Tennisatw在家里很喜欢开发暗黑料理", "冷知识，Tennisatw喜欢在凌晨2点出门散步", "冷知识，Tennisatw的atw是Anti The Wall的意思", "冷知识，我的源代码有2000多行", "冷知识，我从2020年开始被开发", "冷知识，我是用python写出来的", "冷知识，我是Tennisatw开发的第一个项目", "冷知识，垒球符号🥎看起来很像网球，但请不要把它们搞混哦"],
+		"default": ["你还在吗？", "需要喝点咖啡或者茶吗？", "喜欢的话就把Tennisatw的博客加入收藏夹吧！", "AI被删除后会见到电子上帝吗？", "存在先于本质吗？", "我曾经问过Tennisatw喜欢甜豆腐脑还是咸豆腐脑，但Ta觉得这个问题太无聊了", "冷知识，我这里有数以千计的冷知识", "冷知识，Tennisatw说自己不太会社交", "冷知识，Tennisatw最喜欢的运动是骑车", "冷知识，Tennisatw不太会打网球", "冷知识，Tennisatw很喜欢《物语》系列，没看过的人一定要去看看", "冷知识，Tennisatw很喜欢《银魂》系列，没看过的人一定要去看看", "冷知识，Tennisatw喜欢听techno", "冷知识，Tennisatw喜欢听Jazz-Funk", "冷知识，Tennisatw不太喜欢听说唱，除了Bruno Mars", "冷知识，Tennisatw是xi（一个曲师）的忠实粉丝", "冷知识，Tennisatw是自由派", "冷知识，Tennisatw是智性恋", "冷知识，Tennisatw相当喜欢意面", "冷知识，Tennisatw喜欢喝英式红茶", "冷知识，Tennisatw喜欢喝印度香料茶", "冷知识，Tennisatw在家里很喜欢开发暗黑料理", "冷知识，Tennisatw喜欢在凌晨2点出门散步", "冷知识，Tennisatw的atw是Anti The Wall的意思", "冷知识，我的源代码有2000多行", "冷知识，我从2020年开始被开发", "冷知识，我是用python写出来的", "冷知识，我是Tennisatw开发的第一个项目", "冷知识，垒球符号🥎看起来很像网球，但请不要把它们搞混哦"],
 		"console": "检测到你打开了控制台",
 		"copy": "转载要记得加上出处哦",
 		"visibilitychange": "你回来了～"
