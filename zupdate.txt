@@ -8,11 +8,17 @@ git add .
 git commit -m 1.xx
 git push
 
+如果push报错就输入这两句命令
+config --global --unset http.proxy
+config --global --unset https.proxy
+
 打开github，发布一个release
 
 打开
 https://purge.jsdelivr.net/gh/tennisatw/live2d-widget@1.xx/autoload.js
 
 打开
-https://fastly.jsdelivr.net/gh/tennisatw/live2d-widget@1.26/autoload.js
+https://fastly.jsdelivr.net/gh/tennisatw/live2d-widget@1.xx/autoload.js
 查看
+
+在博客的源代码处修改

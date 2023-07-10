@@ -96,12 +96,6 @@
 		"selector": ".beian a",
 		"text": [""]
 	}, {
-		"selector": ".svg-icon-24 search-expand-icon",
-		"text": ["点击此处搜索博客内容"]
-	}, {
-		"selector": "#search_top",
-		"text": ["在此输入搜索内容"]
-	}, {
 		"selector": ".container a[href='https://blog.tennisatw.com/p/about.html'], .nav-link .nav-text",
 		"text": ["点击这里查看更多有关Tennisatw和我的信息"]
 	}, {
@@ -109,7 +103,7 @@
 		"text": ["Tennisatw的诗"]
 	}, {
 		"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E9%9A%8F%E6%83%B3%20-%20caprice'], .nav-link .nav-text",
-		"text": ["Tennisatw的各种读后感，和科学/哲学/政治小随笔"]
+		"text": ["Tennisatw的各种读后感和小随笔"]
 	}, {
 		"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E6%97%A5%E5%B8%B8%20-%20daily%20life'], .nav-link .nav-text",
 		"text": ["Tennisatw的一些日常生活的分享，也包括菜谱"]
@@ -120,8 +114,11 @@
 		"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E7%BC%96%E7%A8%8B%20-%20program'], .nav-link .nav-text",
 		"text": ["Tennisatw分享代码的地方"]
 	}, {
+		"selector": ".container a[href$='#comments'], .nav-link .nav-text",
+		"text": ["欢迎评论，你可能需要科学上网", "有什么想说的吗？"]
+	}, {
 		"selector": ".container a[href^='https://blog.tennisatw.com'], .nav-link .nav-text",
-		"text": ["看看 <span>{text}</span> ？", "去 <span>{text}</span> 逛逛吧。", "到 <span>{text}</span> 看看吧。"]
+		"text": ["<span>{text}</span>"]
 	}, {
 		"selector": ".back-to-top",
 		"text": [""]
@@ -166,47 +163,47 @@
 		"text": [""]
 	}, {
 		"selector": ".extend.next",
-		"text": ["去下一页看看吧。", "点它可以前进哦！", "要翻到下一页吗？"]
+		"text": [""]
 	}, {
 		"selector": ".extend.prev",
-		"text": ["去上一页看看吧。", "点它可以后退哦！", "要翻到上一页吗？"]
+		"text": [""]
 	}, {
 		"selector": "input.vnick",
-		"text": ["该怎么称呼你呢？", "留下你的尊姓大名！"]
+		"text": [""]
 	}, {
 		"selector": ".vmail",
-		"text": ["留下你的邮箱，不然就是无头像人士了！", "记得设置好 Gravatar 头像哦！", "为了方便通知你最新消息，一定要留下邮箱！"]
+		"text": [""]
 	}, {
 		"selector": ".vlink",
-		"text": ["快快告诉我你的家在哪里，好让我去参观参观！"]
+		"text": [""]
 	}, {
 		"selector": ".veditor",
-		"text": ["想要去评论些什么吗？", "要说点什么吗？", "觉得博客不错？快来留言和主人交流吧！"]
+		"text": [""]
 	}, {
 		"selector": ".vcontrol a",
-		"text": ["你会不会熟练使用 Markdown 呀？", "使用 Markdown 让评论更美观吧～"]
+		"text": [""]
 	}, {
 		"selector": ".vemoji-btn",
-		"text": ["要插入一个萌萌哒的表情吗？", "要来一发表情吗？"]
+		"text": [""]
 	}, {
 		"selector": ".vpreview-btn",
-		"text": ["要预览一下你的发言吗？", "快看看你的评论有多少负熵！"]
+		"text": [""]
 	}, {
 		"selector": ".vsubmit",
-		"text": ["评论没有审核，要对自己的发言负责哦～", "要提交了吗，请耐心等待回复哦～"]
+		"text": [""]
 	}, {
 		"selector": ".vcontent",
-		"text": ["哇，快看看这个精彩评论！", "如果有疑问，请尽快留言哦～"]
+		"text": [""]
 	}],
 	"click": [{
 		"selector": "#live2d",
-		"text": ["⌇●﹏●⌇", "(ó﹏ò｡)", "(ノ≧∇≦)ノ", "啊这...", "行了行了", "你在找彩蛋吗？点击100000次就有啦"]
+		"text": ["⌇●﹏●⌇", "(ó﹏ò｡)", "(ノ≧∇≦)ノ", "啊这...", "行了行了", "这很让人上瘾是吗", "你在找彩蛋吗？点击100000次就有啦"]
 	}, {
 		"selector": ".veditor",
-		"text": ["要吐槽些什么呢？", "一定要认真填写喵～", "有什么想说的吗？"]
+		"text": [""]
 	}, {
 		"selector": ".vsubmit",
-		"text": ["输入验证码就可以提交评论啦～"]
+		"text": [""]
 	}],
 	"seasons": [{
 		"date": "01/01",
@@ -227,7 +224,7 @@
 		"date": "12/15",
 		"text": "今天是我的生日哦"
 	}, {
-		"date": "12/20-12/31",
+		"date": "12/24-12/31",
 		"text": "这几天是<span>圣诞节</span>，Tennisatw又能放假了～"
 	}],
 	"time": [{
@@ -256,7 +253,7 @@
 		"text": ["已经这么晚了呀，早点休息吧"]
 	}],
 	"message": {
-		"default": ["你还在吗？", "需要喝点咖啡或者茶吗？", "喜欢的话就把Tennisatw的博客加入收藏夹吧！", "AI被删除后会见到电子上帝吗？", "存在先于本质吗？", "我曾经问过Tennisatw喜欢甜豆腐脑还是咸豆腐脑，但Ta觉得这个问题太无聊了", "冷知识，我这里有数以千计的冷知识", "冷知识，Tennisatw说自己不太会社交", "冷知识，Tennisatw最喜欢的运动是骑车", "冷知识，Tennisatw不太会打网球", "冷知识，Tennisatw很喜欢《物语》系列，没看过的人一定要去看看", "冷知识，Tennisatw很喜欢《银魂》系列，没看过的人一定要去看看", "冷知识，Tennisatw喜欢听techno", "冷知识，Tennisatw喜欢听Jazz-Funk", "冷知识，Tennisatw不太喜欢听说唱，除了Bruno Mars", "冷知识，Tennisatw是xi（一个曲师）的忠实粉丝", "冷知识，Tennisatw是自由派", "冷知识，Tennisatw是智性恋", "冷知识，Tennisatw相当喜欢意面", "冷知识，Tennisatw喜欢喝英式红茶", "冷知识，Tennisatw喜欢喝印度香料茶", "冷知识，Tennisatw在家里很喜欢开发暗黑料理", "冷知识，Tennisatw喜欢在凌晨2点出门散步", "冷知识，Tennisatw的atw是Anti The Wall的意思", "冷知识，我的源代码有2000多行", "冷知识，我从2020年开始被开发", "冷知识，我是用python写出来的", "冷知识，我是Tennisatw开发的第一个项目", "冷知识，垒球符号🥎看起来很像网球，但请不要把它们搞混哦"],
+		"default": ["你还在吗？", "需要喝点咖啡或者茶吗？", "喜欢的话就把Tennisatw的博客加入收藏夹吧！", "AI被删除后会见到电子上帝吗？", "Tennisbot射线，biubiu~", "存在先于本质吗？", "老大哥在盯着你哦", "我曾经问过Tennisatw喜欢甜豆腐脑还是咸豆腐脑，但Ta觉得这个问题太无聊了", "冷知识，我这里有数以千计的冷知识", "冷知识，Tennisatw说自己不太会社交", "冷知识，Tennisatw最喜欢的运动是骑车", "冷知识，Tennisatw不太会打网球", "冷知识，Tennisatw很喜欢《物语》系列，没看过的人一定要去看看", "冷知识，Tennisatw很喜欢《银魂》系列，没看过的人一定要去看看", "冷知识，Tennisatw喜欢听techno", "冷知识，Tennisatw喜欢听Jazz-Funk", "冷知识，Tennisatw不太喜欢听说唱，除了Bruno Mars", "冷知识，Tennisatw是xi（一个曲师）的忠实粉丝", "冷知识，Tennisatw是藤原大大的粉丝", "冷知识，Tennisatw是自由派", "冷知识，Tennisatw是智性恋", "冷知识，Tennisatw相当喜欢意面", "冷知识，Tennisatw喜欢喝英式红茶", "冷知识，Tennisatw喜欢喝印度香料茶", "冷知识，Tennisatw在家里很喜欢开发暗黑料理", "冷知识，Tennisatw喜欢在凌晨2点出门散步", "冷知识，Tennisatw的atw是Anti The Wall的意思", "冷知识，我的源代码有2000多行", "冷知识，我从2020年开始被开发，直到现在", "冷知识，我是用python写出来的", "冷知识，我是Tennisatw开发的第一个项目", "冷知识，垒球符号🥎看起来很像网球，但请不要把它们搞混哦"],
 		"console": "检测到你打开了控制台",
 		"copy": "转载要记得加上出处哦",
 		"visibilitychange": "你回来了～"
