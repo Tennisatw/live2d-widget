@@ -9,8 +9,8 @@ git commit -m 1.xx
 git push
 
 如果push报错就输入这两句命令
-config --global --unset http.proxy
-config --global --unset https.proxy
+git config --global --unset http.proxy
+git config --global --unset https.proxy
 
 打开github，发布一个release
 
