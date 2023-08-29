@@ -1,7 +1,7 @@
 {
 	"mouseover": [{
 		"selector": "#live2d",
-		"text": ["探测到鼠标经过防空识别区", "起风了" , "喵？" , "喵喵？", "喵！", "喵喵！"]
+		"text": ["探测到鼠标经过防空识别区", "起风了", "好看的皮囊↙", "有趣的灵魂↗", "喵？", "喵喵？", "喵！", "喵喵！"]
 	}, {
 		"selector": "#waifu-tool-hitokoto",
 		"text": [""]
@@ -109,10 +109,13 @@
 		"text": ["Tennisatw的一些日常生活的分享，也包括菜谱"]
 	}, {
 		"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E6%8A%80%E6%9C%AF%20-%20skill'], .nav-link .nav-text",
-		"text": ["Tennisatw分享学到的一些有用的小东西的地方"]
+		"text": ["Tennisatw分享一些有用的小东西的地方"]
 	}, {
 		"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E7%BC%96%E7%A8%8B%20-%20program'], .nav-link .nav-text",
 		"text": ["Tennisatw分享代码的地方"]
+	}, {
+		"selector": ".container a[https://blog.tennisatw.com/search/label/%E6%8E%A8%E8%8D%90%20-%20recommendation'], .nav-link .nav-text",
+		"text": ["Tennisatw的推荐，什么都可能有"]
 	}, {
 		"selector": ".container a[href$='#comments'], .nav-link .nav-text",
 		"text": ["欢迎评论，但你可能需要科学上网", "有什么想说的吗？"]
@@ -207,13 +210,13 @@
 	}],
 	"seasons": [{
 		"date": "01/01",
-		"text": "<span>元旦</span>了呢，新的一年又开始了，不要忘了，从今天开始是{year}年了哦～"
+		"text": "<span>元旦</span>了呢，新的一年又开始了，从今天开始是{year}年了哦～"
 	}, {
 		"date": "02/14",
 		"text": "又是一年的<span>情人节</span>哦"
 	}, {
 		"date": "06/01",
-		"text": "<span>儿童节</span>了呢，快活的时光总是短暂，要是永远长不大该多好啊…"
+		"text": "<span>儿童节</span>了呢"
 	}, {
 		"date": "11/27",
 		"text": "今天是Tennisatw的生日哦"
