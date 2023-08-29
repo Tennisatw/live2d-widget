@@ -114,7 +114,7 @@
 		"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E7%BC%96%E7%A8%8B%20-%20program'], .nav-link .nav-text",
 		"text": ["Tennisatw分享代码的地方"]
 	}, {
-		"selector": ".container a[https://blog.tennisatw.com/search/label/%E6%8E%A8%E8%8D%90%20-%20recommendation'], .nav-link .nav-text",
+		"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E6%8E%A8%E8%8D%90%20-%20recommendation'], .nav-link .nav-text",
 		"text": ["Tennisatw的推荐，什么都可能有"]
 	}, {
 		"selector": ".container a[href$='#comments'], .nav-link .nav-text",
