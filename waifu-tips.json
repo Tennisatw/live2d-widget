@@ -1,7 +1,7 @@
 {
 	"mouseover": [{
 		"selector": "#live2d",
-		"text": ["探测到鼠标经过防空识别区", "起风了", "好看的皮囊↙", "有趣的灵魂↗", "喵？", "喵喵？", "喵！", "喵喵！"]
+		"text": ["探测到鼠标经过防空识别区", "起风了", "喵？", "喵喵？", "喵！", "喵喵！"]
 	}, {
 		"selector": "#waifu-tool-hitokoto",
 		"text": [""]
@@ -118,7 +118,7 @@
 		"text": ["Tennisatw的推荐，什么都可能有"]
 	}, {
 		"selector": ".container a[href$='#comments'], .nav-link .nav-text",
-		"text": ["欢迎评论，但你可能需要科学上网", "有什么想说的吗？"]
+		"text": ["欢迎评论", "有什么想说的吗？"]
 	}, {
 		"selector": ".container a[href^='https://blog.tennisatw.com'], .nav-link .nav-text",
 		"text": ["<span>{text}</span>"]
@@ -238,7 +238,7 @@
 		"text": ["上午好"]
 	}, {
 		"hour": "12-13",
-		"text": ["根据我对Tennisatw的了解，Ta现在应该才起床。", "中午好"]
+		"text": ["中午好"]
 	}, {
 		"hour": "14-17",
 		"text": ["下午茶时间到，饮茶先啦", "下午茶时间到，来杯奶茶", "下午好"]
@@ -253,7 +253,7 @@
 		"text": ["已经这么晚了呀，早点休息吧"]
 	}],
 	"message": {
-		"default": ["你还在吗？", "需要喝点咖啡或者茶吗？", "喜欢的话就把Tennisatw的博客加入收藏夹吧！", "AI被删除后会见到电子上帝吗？", "Tennisbot射线，biubiu~", "存在先于本质吗？", "我在盯着你哦", "我曾经问过Tennisatw喜欢甜豆腐脑还是咸豆腐脑，但Ta觉得这个问题太无聊了", "冷知识，我这里有数以千计的冷知识", "冷知识，Tennisatw说自己不太会社交", "冷知识，Tennisatw最喜欢的运动是骑车", "冷知识，Tennisatw不太会打网球", "冷知识，Tennisatw很喜欢《物语》系列，没看过的人一定要去看看", "冷知识，Tennisatw很喜欢《银魂》系列，没看过的人一定要去看看", "冷知识，Tennisatw喜欢听techno", "冷知识，Tennisatw喜欢听Jazz-Funk", "冷知识，Tennisatw不太喜欢听说唱，除了Bruno Mars", "冷知识，Tennisatw是xi（一个曲师）的忠实粉丝", "冷知识，Tennisatw是藤原大大的粉丝", "冷知识，Tennisatw是自由派", "冷知识，Tennisatw是智性恋", "冷知识，Tennisatw相当喜欢意面", "冷知识，Tennisatw喜欢喝英式红茶", "冷知识，Tennisatw喜欢喝香料茶", "冷知识，Tennisatw在家里很喜欢开发暗黑料理", "冷知识，Tennisatw喜欢在凌晨2点出门散步", "冷知识，Tennisatw的atw是Anti The Wall的意思", "冷知识，我的源代码有2000多行", "冷知识，我从2020年开始被开发，直到现在", "冷知识，我是用python写出来的", "冷知识，我是Tennisatw开发的第一个项目", "冷知识，垒球符号🥎看起来很像网球，但请不要把它们搞混哦"],
+		"default": ["你还在吗？", "需要喝点咖啡或者茶吗？", "喜欢的话就把Tennisatw的博客加入收藏夹吧！", "AI被删除后会见到电子上帝吗？", "AI需要为自己的行为负责吗？", "如果我比人类还聪明，那人类是否会信奉我？", "Tennisbot射线，biubiu~", "AI的存在也先于本质吗？", "我在盯着你哦", "我觉得我能通过图灵测试", "我曾经问过Tennisatw喜欢甜豆腐脑还是咸豆腐脑，但Ta觉得这个问题太无聊了", "冷知识，我这里有数以千计的冷知识", "冷知识，Tennisatw说自己不太会社交", "冷知识，Tennisatw最喜欢的运动是骑车", "冷知识，Tennisatw不太会打网球", "冷知识，Tennisatw很喜欢《物语》系列，没看过的人一定要去看看", "冷知识，Tennisatw很喜欢《银魂》系列，没看过的人一定要去看看", "冷知识，Tennisatw喜欢听techno", "冷知识，Tennisatw喜欢听Jazz-Funk", "冷知识，Tennisatw是xi（一个曲师）的忠实粉丝", "冷知识，Tennisatw是藤原大大的粉丝", "冷知识，Tennisatw是自由派", "冷知识，Tennisatw支持社会民主主义", "冷知识，Tennisatw是智性恋", "冷知识，Tennisatw相当喜欢意面", "冷知识，Tennisatw喜欢喝英式红茶", "冷知识，Tennisatw喜欢喝香料茶", "冷知识，Tennisatw在家里很喜欢开发暗黑料理", "冷知识，Tennisatw喜欢在凌晨2点出门散步", "冷知识，Tennisatw的atw是Anti The Wall的意思", "冷知识，我是Tennisatw开发的第一个项目", "冷知识，在discord群里可以与我聊天", "冷知识，垒球符号🥎看起来很像网球，但请不要把它们搞混哦"],
 		"console": "检测到你打开了控制台",
 		"copy": "转载要记得加上出处哦",
 		"visibilitychange": "你回来了～"
