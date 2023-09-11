@@ -21,4 +21,4 @@ https://purge.jsdelivr.net/gh/tennisatw/live2d-widget@1.xx/autoload.js
 https://fastly.jsdelivr.net/gh/tennisatw/live2d-widget@1.xx/autoload.js
 查看
 
-在博客的源代码处修改
+在博客的布局处修改
