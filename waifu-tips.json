@@ -117,10 +117,13 @@
 		"selector": ".container a[href^='https://blog.tennisatw.com'], .nav-link .nav-text",
 		"text": ["<span>{text}</span>"]
 	}, {
-		"selector": ".tennisbot",
-		"text": ["这一段是在说我哦"]
-	}, {
 		"selector": "p[tennisbot]",
+		"text": ["{tennisbot}"]
+	}, {
+		"selector": "p[tennisbot2]",
+		"text": ["{id}"]
+	}, {
+		"selector": "p[tennisbot3]",
 		"text": ["{class}"]
 	}, {
 		"selector": ".back-to-top",
