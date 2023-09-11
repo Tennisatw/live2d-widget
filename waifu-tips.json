@@ -114,11 +114,14 @@
 		"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E6%8E%A8%E8%8D%90%20-%20recommendation'], .nav-link .nav-text",
 		"text": ["Tennisatw的推荐，什么都可能有"]
 	}, {
-		"selector": ".tabnav-tabs",
-		"text": ["欢迎评论", "有什么想说的吗？"]
-	}, {
 		"selector": ".container a[href^='https://blog.tennisatw.com'], .nav-link .nav-text",
 		"text": ["<span>{text}</span>"]
+	}, {
+		"selector": ".tennisbot",
+		"text": ["这一段是在说我哦"]
+	}, {
+		"selector": "p[tennisbot]",
+		"text": ["{text}"]
 	}, {
 		"selector": ".back-to-top",
 		"text": [""]
