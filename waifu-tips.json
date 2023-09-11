@@ -118,13 +118,7 @@
 		"text": ["<span>{text}</span>"]
 	}, {
 		"selector": "p[tennisbot]",
-		"text": ["{tennisbot}"]
-	}, {
-		"selector": "p[tennisbot2]",
 		"text": ["{id}"]
-	}, {
-		"selector": "p[tennisbot3]",
-		"text": ["{class}"]
 	}, {
 		"selector": ".back-to-top",
 		"text": [""]
