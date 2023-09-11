@@ -121,10 +121,7 @@
 		"text": ["这一段是在说我哦"]
 	}, {
 		"selector": "p[tennisbot]",
-		"text": ["{tennisbot}"]
-	}, {
-		"selector": "p[tennisbot2]",
-		"text": ["{id}"]
+		"text": ["{class}"]
 	}, {
 		"selector": ".back-to-top",
 		"text": [""]
