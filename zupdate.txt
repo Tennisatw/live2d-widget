@@ -1,6 +1,6 @@
 编辑所需的编辑
 
-打开autoload.js 编辑两个@1.xx的内容
+打开autoload.js 编辑@1.xx的内容
 
 关闭所有梯子，git执行
 
@@ -15,10 +15,10 @@ git config --global --unset https.proxy
 打开github，发布一个release
 
 打开
-https://purge.jsdelivr.net/gh/tennisatw/live2d-widget@1.xx/autoload.js
-
-打开
 https://fastly.jsdelivr.net/gh/tennisatw/live2d-widget@1.xx/autoload.js
 查看
+
+如果没加载出来就打开
+https://purge.jsdelivr.net/gh/tennisatw/live2d-widget@1.xx/autoload.js
 
 在博客的布局处修改
