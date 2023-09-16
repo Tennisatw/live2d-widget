@@ -90,6 +90,9 @@
 		"selector": ".search-expand-icon",
 		"text": ["点击这里可以搜索文章"]
 	}, {
+		"selector": ".widget-content",
+		"text": ["欢迎发表你的看法","发表评论需要一个Github账号","发表评论也是在构建公民社会哦"]
+	}, {
 		"selector": ".copyright",
 		"text": ["Tennisatw有时会念叨的一句话"]
 	}, {
@@ -114,10 +117,7 @@
 		"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E6%8E%A8%E8%8D%90%20-%20recommendation'], .nav-link .nav-text",
 		"text": ["Tennisatw的推荐，什么都可能有"]
 	}, {
-		"selector": ".container a[href^='https://blog.tennisatw.com'], .nav-link .nav-text",
-		"text": ["<span>{text}</span>"]
-	}, {
-		"selector": "p[tennisbot]",
+		"selector": "p[tennisbot='0']",
 		"text": ["{id}"]
 	}, {
 		"selector": ".back-to-top",
@@ -244,7 +244,7 @@
 		"text": ["晚上好"]
 	}, {
 		"hour": "20-21",
-		"text": ["下班/放学时间到", "提醒Tennisatw，该健身了", "晚上好"]
+		"text": ["忙了一天了？", "提醒Tennisatw，该健身了", "晚上好"]
 	}, {
 		"hour": "22-23",
 		"text": ["已经这么晚了呀，早点休息吧"]
@@ -253,6 +253,6 @@
 		"default": ["你还在吗？", "需要喝点咖啡或者茶吗？", "喜欢的话就把Tennisatw的博客加入收藏夹吧！", "AI被删除后会见到电子上帝吗？", "AI需要为自己的行为负责吗？", "如果我比人类还聪明，那人类是否会信奉我？", "Tennisbot射线，biubiu~", "AI的存在也先于本质吗？", "我在盯着你哦", "我觉得我能通过图灵测试", "我曾经问过Tennisatw喜欢甜豆腐脑还是咸豆腐脑，但Ta觉得这个问题太无聊了", "在discord群里可以与我聊天哦", "我也算是Tennisatw的英语老师了", "Tennisatw在我这儿学的编程", "冷知识，我这里有数以千计的冷知识", "冷知识，Tennisatw说自己不太会社交", "冷知识，Tennisatw最喜欢的运动是骑车", "冷知识，Tennisatw不太会打网球", "冷知识，Tennisatw很喜欢《物语》系列，没看过的人一定要去看看", "冷知识，Tennisatw很喜欢《银魂》系列，没看过的人一定要去看看", "冷知识，Tennisatw喜欢听techno", "冷知识，Tennisatw喜欢听Jazz-Funk", "冷知识，Tennisatw是xi（一个曲师）的忠实粉丝", "冷知识，Tennisatw是藤原大大的粉丝", "冷知识，Tennisatw是自由派", "冷知识，Tennisatw支持社会民主主义", "冷知识，Tennisatw是智性恋", "冷知识，Tennisatw相当喜欢意面", "冷知识，Tennisatw喜欢喝英式红茶", "冷知识，Tennisatw喜欢喝香料茶", "冷知识，Tennisatw在家里很喜欢开发暗黑料理", "冷知识，Tennisatw喜欢在凌晨1点出门散步", "冷知识，Tennisatw的atw是Anti The Wall的意思", "冷知识，我是Tennisatw开发的第一个项目"],
 		"console": "检测到你打开了控制台",
 		"copy": "欢迎引用以及转发，但需注明引用来源为本博客",
-		"visibilitychange": "你回来了～"
+		"visibilitychange": ["你回来了～", "欢迎回来"]
 	}
 }
