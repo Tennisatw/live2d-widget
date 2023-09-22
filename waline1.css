@@ -282,7 +282,6 @@
 }
 
 .wl-header label {
-    display: none;
     min-width: 40px;
     padding: .75em .5em;
     color: rgba(0,0,0,1);
