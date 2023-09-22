@@ -47,7 +47,7 @@
 	}],
 	"click": [{
 		"selector": "#live2d",
-		"text": ''
+		"text": ""
 	}],
 	"seasons": [{
 		"date": "01/01",
