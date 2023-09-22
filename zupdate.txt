@@ -2,7 +2,12 @@
 
 打开autoload.js 编辑@1.xx的内容
 
-关闭所有梯子，运行zsubmit.bat
+关闭所有梯子
+# 运行zsubmit.bat
+git add .
+git commit -m "1.63"
+git push
+
 
 如果push报错就输入这两句命令
 git config --global --unset http.proxy
