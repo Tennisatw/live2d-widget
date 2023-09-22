@@ -286,7 +286,7 @@
     padding: .75em .5em;
     color: rgba(0,0,0,1);
     background: rgba(0,0,0,0);
-    font-size: 1em;
+    font-size: 0.8em;
     text-align: center
 }
 
@@ -295,7 +295,7 @@
     width: 0;
     padding: .5em;
     background: rgba(0,0,0,0);
-    font-size: 1em;
+    font-size: 0.8em;
     resize: none
 }
 
