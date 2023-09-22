@@ -1,4 +1,4 @@
-const e = ["nick", "mail"]
+const e = ["nick", "mail", "link"]
   , t = t=>t.filter((t=>e.includes(t)))
   , n = ["//unpkg.com/@waline/emojis@1.1.0/weibo"]
   , r = "en-US"
