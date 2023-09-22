@@ -286,7 +286,7 @@
     padding: .75em .5em;
     color: rgba(0,0,0,1);
     background: rgba(0,0,0,0);
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-align: center
 }
 
@@ -295,7 +295,7 @@
     width: 0;
     padding: .5em;
     background: rgba(0,0,0,0);
-    font-size: 0.9em;
+    font-size: 0.8em;
     resize: none
 }
 
@@ -338,12 +338,12 @@
 .wl-editor {
     position: relative;
     width: calc(100% - 1.2em);
-    min-height: 8em;
-    margin: .5em .5em;
+    min-height: 8.75em;
+    margin: .75em .5em;
     border-radius: .5em;
     background: rgba(0,0,0,0);
-    font-size: .9em;
-    resize: none;
+    font-size: .875em;
+    resize: vertical
 }
 
 .wl-editor,.wl-input {
@@ -351,10 +351,11 @@
     border: none;
     color: var(--waline-color);
     outline: none;
+    transition: all .25s ease
 }
 
 .wl-editor:focus,.wl-input:focus {
-    background: none;
+    background: var(--waline-bgcolor-light)
 }
 
 .wl-preview {

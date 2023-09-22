@@ -2,10 +2,9 @@
 
 打开autoload.js 编辑@1.xx的内容
 
-关闭所有梯子
-# 运行zsubmit.bat
+关闭所有梯子，打开命令提示符，运行
 git add .
-git commit -m "1.63"
+git commit -m "1.xx"
 git push
 
 
@@ -16,10 +15,10 @@ git config --global --unset https.proxy
 打开github，发布一个release
 
 打开
-https://fastly.jsdelivr.net/gh/tennisatw/live2d-widget@1.59/autoload.js
+https://fastly.jsdelivr.net/gh/tennisatw/live2d-widget@1.xx/autoload.js
 查看
 
 如果没加载出来就打开
-https://purge.jsdelivr.net/gh/tennisatw/live2d-widget@1.59/autoload.js
+https://purge.jsdelivr.net/gh/tennisatw/live2d-widget@1.xx/autoload.js
 
 在博客的布局处修改
