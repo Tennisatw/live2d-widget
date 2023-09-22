@@ -90,8 +90,8 @@
 		"selector": ".search-expand-icon",
 		"text": ["点击这里可以搜索文章"]
 	}, {
-		"selector": ".utterances",
-		"text": ["欢迎发表你的看法","发表评论需要一个Github账号","发表评论也是在构建公民社会哦"]
+		"selector": ".wl-comment",
+		"text": ["欢迎发表你的看法","发表评论也是在构建公民社会哦"]
 	}, {
 		"selector": ".copyright",
 		"text": ["Tennisatw有时会念叨的一句话"]
@@ -118,6 +118,9 @@
 		"text": ["Tennisatw的推荐，什么都可能有"]
 	}, {
 		"selector": "p[tennisbot='0']",
+		"text": ["{id}"]
+	}, {
+		"selector": ".tennisbot",
 		"text": ["{id}"]
 	}, {
 		"selector": ".back-to-top",
