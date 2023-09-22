@@ -337,7 +337,7 @@
 
 .wl-editor {
     position: relative;
-    width: calc(98% - 0em);
+    width: calc(100% - 1.2em);
     min-height: 8.75em;
     margin: .75em .5em;
     border-radius: .5em;
