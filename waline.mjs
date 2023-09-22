@@ -1,6 +1,6 @@
 const e = ["nick", "mail"]
   , t = t=>t.filter((t=>e.includes(t)))
-  , n = ["//unpkg.com/@waline/emojis@1.1.0/qq"]
+  , n = ["//unpkg.com/@waline/emojis@1.1.0/weibo"]
   , r = "en-US"
   , l = ["//unpkg.com/@waline/emojis/tieba/tieba_agree.png", "//unpkg.com/@waline/emojis/tieba/tieba_look_down.png", "//unpkg.com/@waline/emojis/tieba/tieba_sunglasses.png", "//unpkg.com/@waline/emojis/tieba/tieba_pick_nose.png", "//unpkg.com/@waline/emojis/tieba/tieba_awkward.png", "//unpkg.com/@waline/emojis/tieba/tieba_sleep.png"]
   , i = e=>new Promise(((t,n)=>{

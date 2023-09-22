@@ -259,9 +259,9 @@
     position: relative;
     flex-shrink: 1;
     width: 100%;
-    margin: .5em;
+    margin: 0em;
     border: var(--waline-border);
-    border-radius: .75em;
+    border-radius: .5em;
     background: var(--waline-bgcolor);
     box-shadow: var(--waline-box-shadow)
 }
@@ -286,7 +286,7 @@
     padding: .75em .5em;
     color: rgba(0,0,0,1);
     background: rgba(0,0,0,0);
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-align: center
 }
 
@@ -295,7 +295,7 @@
     width: 0;
     padding: .5em;
     background: rgba(0,0,0,0);
-    font-size: 0.8em;
+    font-size: 0.9em;
     resize: none
 }
 
@@ -342,8 +342,8 @@
     margin: .75em .5em;
     border-radius: .5em;
     background: rgba(0,0,0,0);
-    font-size: .875em;
-    resize: vertical
+    font-size: .9em;
+    resize: none;
 }
 
 .wl-editor,.wl-input {
@@ -351,11 +351,10 @@
     border: none;
     color: var(--waline-color);
     outline: none;
-    transition: all .25s ease
 }
 
 .wl-editor:focus,.wl-input:focus {
-    background: var(--waline-bgcolor-light)
+    background: none;
 }
 
 .wl-preview {
