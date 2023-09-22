@@ -259,9 +259,9 @@
     position: relative;
     flex-shrink: 1;
     width: 100%;
-    margin: .5em;
+    margin: 0em;
     border: var(--waline-border);
-    border-radius: .75em;
+    border-radius: .5em;
     background: var(--waline-bgcolor);
     box-shadow: var(--waline-box-shadow)
 }
@@ -338,8 +338,8 @@
 .wl-editor {
     position: relative;
     width: calc(100% - 1.2em);
-    min-height: 8em;
-    margin: .5em .5em;
+    min-height: 8.75em;
+    margin: .75em .5em;
     border-radius: .5em;
     background: rgba(0,0,0,0);
     font-size: .9em;
