@@ -52,7 +52,7 @@
 	opacity: 0.0;
 	overflow: hidden;
 	padding: 5px 10px;
-	position: absolute;
+	position: relative;
 	text-overflow: ellipsis;
 	transition: opacity 1s;
 	width: 250px;
