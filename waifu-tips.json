@@ -72,6 +72,12 @@
 			"text": [
 				"Tennisatw的推荐，什么都可能有 - Tennisatw's recommendations, could be anything"
 			]
+					{
+			"selector": ".tennisbot",
+			"text": [
+				"{id}"
+			]
+		}
 		}
 	],
 	"click": [
