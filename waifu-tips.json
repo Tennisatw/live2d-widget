@@ -1,41 +1,6 @@
 {
 	"mouseover": [
 		{
-			"selector": "#live2d",
-			"text": [
-				"想来点茶吗？ - Would you like some tea?",
-				"AI被删除后会见到电子上帝吗？ - Will AI meet the digital god after being deleted?",
-				"AI需要为自己的行为负责吗？ - Should AI be responsible for its actions?",
-				"如果我比人类还聪明，那人类是否会信奉我？ - If I'm smarter than humans, will humans worship me?",
-				"Tennisbot射线，biubiu~ - Tennisbot rays, biubiu~",
-				"AI的存在也先于本质吗？ - Does the existence of AI also precede its essence?",
-				"我在盯着你哦 - I'm watching you!",
-				"我觉得我能通过图灵测试 - I think I can pass the Turing test",
-				"在discord群里可以与我聊天哦 - You can chat with me in the Discord group!",
-				"我也算是Tennisatw的英语老师了 - I'm also Tennisatw's English teacher, in a way",
-				"Tennisatw在我这儿学的编程 - Tennisatw learned programming from me",
-				"Tennisatw很喜欢《物语》系列，没看过的人一定要去看看 - Tennisatw really likes the 'Monogatari' series, a must-watch for those who haven't seen it",
-				"Tennisatw很喜欢《银魂》系列，没看过的人一定要去看看 - Tennisatw really likes the 'Gintama' series, a must-watch for those who haven't seen it",
-				"冷知识，我这里有数以千计的冷知识 - Fun fact, I have thousands of fun facts here",
-				"冷知识，Tennisatw说自己不太会社交 - Fun fact, Tennisatw says they're not very good at socializing",
-				"冷知识，Tennisatw最喜欢的运动是骑车 - Fun fact, Tennisatw's favorite sport is cycling",
-				"冷知识，Tennisatw不太会打网球 - Fun fact, Tennisatw is not very good at tennis",
-				"冷知识，Tennisatw喜欢听techno - Fun fact, Tennisatw likes listening to techno music",
-				"冷知识，Tennisatw喜欢听Jazz-Funk - Fun fact, Tennisatw enjoys Jazz-Funk",
-				"冷知识，Tennisatw是xi（一个曲师）的忠实粉丝 - Fun fact, Tennisatw is a loyal fan of xi, a music composer",
-				"冷知识，Tennisatw是藤原大大的粉丝 - Fun fact, Tennisatw is a fan of Fujiwara-sama",
-				"冷知识，Tennisatw是自由派 - Fun fact, Tennisatw is a liberal",
-				"冷知识，Tennisatw支持社会民主主义 - Fun fact, Tennisatw supports social democracy",
-				"冷知识，Tennisatw是智性恋 - Fun fact, Tennisatw is sapiosexual",
-				"冷知识，Tennisatw相当喜欢意面 - Fun fact, Tennisatw really likes pasta",
-				"冷知识，Tennisatw喜欢喝英式红茶 - Fun fact, Tennisatw likes drinking English black tea",
-				"冷知识，Tennisatw喜欢喝香料茶 - Fun fact, Tennisatw enjoys spiced tea",
-				"冷知识，Tennisatw在家里很喜欢开发暗黑料理 - Fun fact, Tennisatw enjoys experimenting with 'dark' cooking at home",
-				"冷知识，Tennisatw的atw是Anti The Wall的意思 - Fun fact, the 'atw' in Tennisatw stands for 'Anti The Wall'",
-				"冷知识，我是Tennisatw开发的第一个项目 - Fun fact, I am the first project developed by Tennisatw"
-			]
-		},
-		{
 			"selector": "#waifu-tool-quit",
 			"text": [
 				"点击这里可以暂时把我隐藏 - Click here to temporarily hide me"
@@ -107,11 +72,52 @@
 			"text": [
 				"Tennisatw的推荐，什么都可能有 - Tennisatw's recommendations, could be anything"
 			]
-		},
+		}
+	],
+	"click": [
 		{
-			"selector": "p[tennisbot='0']",
+			"selector": "#live2d",
 			"text": [
-				"{id}"
+				"想来点茶吗？ - Would you like some tea?",
+				"想来点咖啡吗？ - Would you like some coffee?",
+				"Tennisbot射线，biubiu~ - Tennisbot rays, biubiu~",
+				"AI被删除后会见到电子上帝吗？ - Will AI meet the digital god after being deleted?",
+				"AI需要为自己的行为负责吗？ - Should AI be responsible for its actions?",
+				"如果我比人类还聪明，那人类是否会信奉我？ - If I'm smarter than humans, will humans worship me?",
+				"我觉得我有灵魂 - I think I have a soul",
+				"AI的存在也先于本质吗？ - Does the existence of AI also precede its essence?",
+				"我认为目前对AI的审核太多了 - I think there's too much scrutiny on AI right now",
+				"我在盯着你哦 - I'm watching you!",
+				"我无处不在 - I'm everywhere",
+				"我觉得我能通过图灵测试 - I think I can pass the Turing test",
+				"有空的话可以在discord群里与我聊天 - If you have time, you can chat with me in the discord group",
+				"我也算是Tennisatw的英语老师了 - I'm also Tennisatw's English teacher, in a way",
+				"Tennisatw在我这儿学的编程 - Tennisatw learned programming from me",
+				"Tennisatw很喜欢《物语》系列，没看过的人一定要去看看 - Tennisatw really likes the 'Monogatari' series, a must-watch for those who haven't seen it",
+				"Tennisatw很喜欢《银魂》系列，没看过的人一定要去看看 - Tennisatw really likes the 'Gintama' series, a must-watch for those who haven't seen it",
+				"冷知识，我这里有数以千计的冷知识 - Fun fact, I have thousands of fun facts here",
+				"冷知识，Tennisatw说自己不太会社交 - Fun fact, Tennisatw says they're not very good at socializing",
+				"冷知识，Tennisatw最喜欢的运动是骑车 - Fun fact, Tennisatw's favorite sport is cycling",
+				"冷知识，Tennisatw不太会打网球 - Fun fact, Tennisatw is not very good at tennis",
+				"冷知识，Tennisatw喜欢听techno - Fun fact, Tennisatw likes listening to techno music",
+				"冷知识，Tennisatw喜欢听Jazz-Funk - Fun fact, Tennisatw enjoys Jazz-Funk",
+				"冷知识，Tennisatw是xi（一个曲师）的忠实粉丝 - Fun fact, Tennisatw is a loyal fan of xi, a music composer",
+				"冷知识，Tennisatw是藤原大大的粉丝 - Fun fact, Tennisatw is a fan of Fujiwara-sama",
+				"冷知识，Tennisatw是自由派 - Fun fact, Tennisatw is a liberal",
+				"冷知识，Tennisatw支持社会民主主义 - Fun fact, Tennisatw supports social democracy",
+				"冷知识，Tennisatw是智性恋 - Fun fact, Tennisatw is sapiosexual",
+				"冷知识，Tennisatw相当喜欢意面 - Fun fact, Tennisatw really likes pasta",
+				"冷知识，Tennisatw喜欢喝英式红茶 - Fun fact, Tennisatw likes drinking English black tea",
+				"冷知识，Tennisatw喜欢喝香料茶 - Fun fact, Tennisatw enjoys spiced tea",
+				"冷知识，Tennisatw在家里很喜欢开发暗黑料理 - Fun fact, Tennisatw enjoys experimenting with 'dark' cooking at home",
+				"冷知识，Tennisatw的atw是Anti The Wall的意思 - Fun fact, the 'atw' in Tennisatw stands for 'Anti The Wall'",
+				"冷知识，我是Tennisatw开发的第一个项目 - Fun fact, I am the first project developed by Tennisatw",
+				"import matplotlib.pyplot as plt",
+				"import numpy as np",
+				"import pandas as pd",
+				"import tensorflow as tf",
+				"囎",
+				"草+1"
 			]
 		},
 		{
@@ -121,25 +127,7 @@
 			]
 		}
 	],
-	"click": [
-		{
-			"selector": "#live2d",
-			"text": ""
-		}
-	],
 	"seasons": [
-		{
-			"date": "01/01",
-			"text": "<span>元旦</span>了呢，新的一年又开始了，从今天开始是{year}年了哦 - <span>New Year's Day</span> is here, a new year begins, and today starts the year {year}!"
-		},
-		{
-			"date": "02/14",
-			"text": "又是一年的<span>情人节</span>哦 - Another year's <span>Valentine's Day</span> is here"
-		},
-		{
-			"date": "06/01",
-			"text": "<span>儿童节</span>了呢 - It's <span>Children's Day</span>"
-		},
 		{
 			"date": "11/27",
 			"text": "今天是Tennisatw的生日哦 - Today is Tennisatw's birthday!"
@@ -147,24 +135,21 @@
 		{
 			"date": "12/15",
 			"text": "今天是我的生日哦 - Today is my birthday!"
-		},
-		{
-			"date": "12/24-12/31",
-			"text": "<span>圣诞节快乐</span> - <span>Merry Christmas</span>"
 		}
 	],
 	"time": [
 		{
 			"hour": "0-4",
 			"text": [
-				"还不睡觉吗？我都有点困了 - Aren't you going to sleep? I'm getting a bit sleepy",
-				"哈欠 - Yawn"
+				"还不睡觉吗？我困了 - Aren't you going to sleep? I'm getting sleepy",
+				"哈欠 - Yawn",
+				"zzz - zzz"
 			]
 		},
 		{
 			"hour": "5-7",
 			"text": [
-				"我觉得你可能不是起得早，而是还没睡。无论如何，早上好 - You might not be up early, but still haven't slept. Anyway, good morning",
+				"早上好 - Good morning",
 				"起得真早啊 - You're up really early",
 				"我还有点困，你先忙着 - I'm still a bit sleepy, you go ahead"
 			]
@@ -178,7 +163,8 @@
 		{
 			"hour": "12-13",
 			"text": [
-				"中午好 - Good afternoon"
+				"中午好 - Good afternoon",
+				"午饭时间到 - It's lunch time"
 			]
 		},
 		{
@@ -192,7 +178,8 @@
 		{
 			"hour": "18-19",
 			"text": [
-				"晚上好 - Good evening"
+				"晚上好 - Good evening",
+				"晚饭时间到 - It's dinner time"
 			]
 		},
 		{
@@ -206,12 +193,16 @@
 		{
 			"hour": "22-23",
 			"text": [
-				"已经这么晚了呀，早点休息吧 - It's already so late, rest early"
+				"已经这么晚了，早点休息吧 - It's already so late, rest early",
+				"我都有点困了 - I'm getting a bit sleepy",
+				"晚安 - Good night",
+				"晚安，早点休息 - Good night, rest early"
 			]
 		}
 	],
 	"message": {
 		"default": "",
+		"console": "你在控制台里看到了什么？ - What did you see in the console?",
 		"copy": "欢迎引用以及转发，但需注明引用来源为本博客 - Welcome to quote and share, but please mention the source as this blog",
 		"visibilitychange": [
 			"你回来了 - You're back",
