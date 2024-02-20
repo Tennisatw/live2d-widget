@@ -72,12 +72,12 @@
 			"text": [
 				"Tennisatw的推荐，什么都可能有 - Tennisatw's recommendations, could be anything"
 			]
-					{
+		},
+		{
 			"selector": ".tennisbot",
 			"text": [
 				"{id}"
 			]
-		}
 		}
 	],
 	"click": [
@@ -102,7 +102,6 @@
 				"Tennisatw很喜欢《物语》系列，没看过的人一定要去看看 - Tennisatw really likes the 'Monogatari' series, a must-watch for those who haven't seen it",
 				"Tennisatw很喜欢《银魂》系列，没看过的人一定要去看看 - Tennisatw really likes the 'Gintama' series, a must-watch for those who haven't seen it",
 				"冷知识，我这里有数以千计的冷知识 - Fun fact, I have thousands of fun facts here",
-				"冷知识，Tennisatw说自己不太会社交 - Fun fact, Tennisatw says they're not very good at socializing",
 				"冷知识，Tennisatw最喜欢的运动是骑车 - Fun fact, Tennisatw's favorite sport is cycling",
 				"冷知识，Tennisatw不太会打网球 - Fun fact, Tennisatw is not very good at tennis",
 				"冷知识，Tennisatw喜欢听techno - Fun fact, Tennisatw likes listening to techno music",
@@ -113,9 +112,10 @@
 				"冷知识，Tennisatw支持社会民主主义 - Fun fact, Tennisatw supports social democracy",
 				"冷知识，Tennisatw是智性恋 - Fun fact, Tennisatw is sapiosexual",
 				"冷知识，Tennisatw相当喜欢意面 - Fun fact, Tennisatw really likes pasta",
-				"冷知识，Tennisatw喜欢喝英式红茶 - Fun fact, Tennisatw likes drinking English black tea",
-				"冷知识，Tennisatw喜欢喝香料茶 - Fun fact, Tennisatw enjoys spiced tea",
+				"冷知识，Tennisatw喜欢吃卷饼 - Fun fact, Tennisatw likes burrito",
+				"冷知识，Tennisatw喜欢喝各种茶 - Fun fact, Tennisatw likes drinking all kinds of tea",
 				"冷知识，Tennisatw在家里很喜欢开发暗黑料理 - Fun fact, Tennisatw enjoys experimenting with 'dark' cooking at home",
+				"冷知识，Tennisatw是chatgpt的忠实用户 - Fun fact, Tennisatw is a loyal user of chatgpt",
 				"冷知识，Tennisatw的atw是Anti The Wall的意思 - Fun fact, the 'atw' in Tennisatw stands for 'Anti The Wall'",
 				"冷知识，我是Tennisatw开发的第一个项目 - Fun fact, I am the first project developed by Tennisatw",
 				"import matplotlib.pyplot as plt",
@@ -208,7 +208,7 @@
 	],
 	"message": {
 		"default": "",
-		"console": "你在控制台里看到了什么？ - What did you see in the console?",
+		"console": "你在控制台里看到了什么吗？ - Did you see anything in the console?",
 		"copy": "欢迎引用以及转发，但需注明引用来源为本博客 - Welcome to quote and share, but please mention the source as this blog",
 		"visibilitychange": [
 			"你回来了 - You're back",
