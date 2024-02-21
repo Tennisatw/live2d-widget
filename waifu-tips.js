@@ -200,6 +200,7 @@
                 (i = e(i)),
                 (i = i.replace("{text}", s.target.innerText)),
                 (i = i.replace("{id}", s.target.id)),
+                (i = i.replace("{class}", s.target.className)),
                 void o(i, 3e3, 8)
               );
         }),
@@ -210,7 +211,8 @@
                 (i = e(i)),
                 (i = i.replace("{text}", s.target.innerText)),
                 (i = i.replace("{id}", s.target.id)),
-                void o(i, 3e3, 8)
+                (i = i.replace("{class}", s.target.className)),
+                void o(i, 7e3, 8)
               );
         }),
         t.seasons.forEach(({ date: t, text: o }) => {

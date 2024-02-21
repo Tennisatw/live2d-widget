@@ -7,12 +7,6 @@
 			]
 		},
 		{
-			"selector": ".post-title-link",
-			"text": [
-				"要看看这篇文章吗？ - Take a look at this article? <span>{text}</span> "
-			]
-		},
-		{
 			"selector": ".search-expand-icon",
 			"text": [
 				"点击这里可以搜索文章 - Click here to search for articles"
@@ -32,43 +26,43 @@
 			]
 		},
 		{
-			"selector": ".container a[href='https://blog.tennisatw.com/p/about.html'], .nav-link .nav-text",
+			"selector": ".container a[href='https://blog.tennisatw.com/p/about.html']",
 			"text": [
 				"点击这里查看更多有关Tennisatw和我的信息 - Click here for more information about Tennisatw and me"
 			]
 		},
 		{
-			"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E8%AF%97%20-%20poem'], .nav-link .nav-text",
+			"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E8%AF%97%20-%20poem']",
 			"text": [
 				"Tennisatw的诗 - Tennisatw's Poems"
 			]
 		},
 		{
-			"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E9%9A%8F%E6%83%B3%20-%20caprice'], .nav-link .nav-text",
+			"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E9%9A%8F%E6%83%B3%20-%20caprice']",
 			"text": [
 				"Tennisatw的各种读后感和小随笔 - Tennisatw's various thoughts and short essays"
 			]
 		},
 		{
-			"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E6%97%A5%E5%B8%B8%20-%20daily%20life'], .nav-link .nav-text",
+			"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E6%97%A5%E5%B8%B8%20-%20daily%20life']",
 			"text": [
 				"Tennisatw的一些日常生活的分享，也包括菜谱 - Tennisatw's shares of daily life, including recipes"
 			]
 		},
 		{
-			"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E6%8A%80%E6%9C%AF%20-%20skill'], .nav-link .nav-text",
+			"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E6%8A%80%E6%9C%AF%20-%20skill']",
 			"text": [
 				"Tennisatw分享一些学到的小东西的地方 - A place where Tennisatw shares some useful skills"
 			]
 		},
 		{
-			"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E7%BC%96%E7%A8%8B%20-%20program'], .nav-link .nav-text",
+			"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E7%BC%96%E7%A8%8B%20-%20program']",
 			"text": [
 				"Tennisatw分享代码的地方 - A place where Tennisatw shares code"
 			]
 		},
 		{
-			"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E6%8E%A8%E8%8D%90%20-%20recommendation'], .nav-link .nav-text",
+			"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E6%8E%A8%E8%8D%90%20-%20recommendation']",
 			"text": [
 				"Tennisatw的推荐，什么都可能有 - Tennisatw's recommendations, could be anything"
 			]
@@ -78,6 +72,12 @@
 			"text": [
 				"{id}"
 			]
+		},
+		{
+			"selector": "[id^='tennisbot']",
+			"text": [
+				"{class}"
+			]
 		}
 	],
 	"click": [
@@ -85,9 +85,9 @@
 			"selector": "#live2d",
 			"text": [
 				"想来点茶吗？ - Would you like some tea?",
-				"想来点咖啡吗？ - Would you like some coffee?",
 				"Tennisbot射线，biubiu~ - Tennisbot rays, biubiu~",
 				"AI被删除后会见到电子上帝吗？ - Will AI meet the digital god after being deleted?",
+				"让世界充满AI - Let the world be filled with AI",
 				"AI需要为自己的行为负责吗？ - Should AI be responsible for its actions?",
 				"如果我比人类还聪明，那人类是否会信奉我？ - If I'm smarter than humans, will humans worship me?",
 				"我觉得我有灵魂 - I think I have a soul",
@@ -118,10 +118,7 @@
 				"冷知识，Tennisatw是chatgpt的忠实用户 - Fun fact, Tennisatw is a loyal user of chatgpt",
 				"冷知识，Tennisatw的atw是Anti The Wall的意思 - Fun fact, the 'atw' in Tennisatw stands for 'Anti The Wall'",
 				"冷知识，我是Tennisatw开发的第一个项目 - Fun fact, I am the first project developed by Tennisatw",
-				"import matplotlib.pyplot as plt",
-				"import numpy as np",
-				"import pandas as pd",
-				"import tensorflow as tf",
+				"冷知识，我的生日是12月15日 - Fun fact, my birthday is on December 15th",
 				"囎",
 				"草+1"
 			]
@@ -130,6 +127,12 @@
 			"selector": ".tennisbot",
 			"text": [
 				"{id}"
+			]
+		},
+		{
+			"selector": "[id^='tennisbot']",
+			"text": [
+				"{class}"
 			]
 		}
 	],
