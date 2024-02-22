@@ -27,7 +27,7 @@ def move(path_in, path_out):
                 h, s, v = colorsys.rgb_to_hsv(img_arr[x, y][0] / 255., img_arr[x, y][1] / 255., img_arr[x, y][2] / 255.)
                 if 0 < h < 0.25:
                     if v > 0.5:
-                        r, g, b = colorsys.hsv_to_rgb(h + 0.6, s, v - 0.2)
+                        r, g, b = colorsys.hsv_to_rgb(h + 0.55, s, v - 0.2)
                         img_arr[x, y] = [r * 255, g * 255, b * 255, img_arr[x, y][3]]
 
     for item in [eye1, eye2]:
@@ -42,15 +42,20 @@ def move(path_in, path_out):
             for y in range(item[2], item[3]):
                 img_arr[x, y][3] = 0
 
+    
     img = Image.fromarray(img_arr)
-    img.show()
+    # width, height = img.size
+    # new_width = width // 2
+    # new_height = height // 2
+
+    # img = img.resize((new_width, new_height))
+    # img.show()
     img.save(path_out)
 
 
-path_in = r"C:\Users\wqw\live2d-widget\live2d_api\model\Potion-Maker\Tia\textures"
-path_out = r"C:\Users\wqw\live2d-widget\live2d_api\model\Tennisbot\textures"
+path_in = r"C:\Users\wqw\Downloads\live2d_api-1.0.1\model\Potion-Maker\Tia\textures"
+path_out = r"C:\Users\wqw\Downloads\live2d_api-1.0.1\model\Potion-Maker\Tia\textures2"
 
 for root, ds, fs in os.walk(path_in):
     for f in fs:
         move(path_in + '\\' + f, path_out + '\\' + f)
-        exit()
