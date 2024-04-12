@@ -15,7 +15,7 @@ def move(path_in, path_out):
     img_arr = np.array(img)
 
     hair1 = (400, 650, 0, 400)
-    hair2 = (0, 300, 400, 650)
+    hair2 = (0, 340, 400, 650)
     hair3 = (300, 710, 700, 840)
     eye1 = (530, 600, 600, 730)
     eye2 = (800, 860, 600, 660)
@@ -26,8 +26,8 @@ def move(path_in, path_out):
             for y in range(item[2], item[3]):
                 h, s, v = colorsys.rgb_to_hsv(img_arr[x, y][0] / 255., img_arr[x, y][1] / 255., img_arr[x, y][2] / 255.)
                 if 0 < h < 0.25:
-                    if v > 0.5:
-                        r, g, b = colorsys.hsv_to_rgb(h + 0.55, s, v - 0.2)
+                        # if v > 0.5:
+                        r, g, b = colorsys.hsv_to_rgb(0.8 - h, s, v - 0.2)
                         img_arr[x, y] = [r * 255, g * 255, b * 255, img_arr[x, y][3]]
 
     for item in [eye1, eye2]:
