@@ -68,6 +68,12 @@
 			]
 		},
 		{
+			"selector": ".container a[href='https://blog.tennisatw.com/search/label/%E6%95%8F%E6%84%9F%20-%20sensitive']",
+			"text": [
+				"有点敏感的文章，可以私聊Tennisatw获取原文 - Articles contain sensitive content. Contact Tennisatw for the original text."
+			]
+		},
+		{
 			"selector": ".tennisbot",
 			"text": [
 				"{id}"
