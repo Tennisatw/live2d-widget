@@ -20,49 +20,49 @@
 			]
 		},
 		{
-			"selector": ".container a[href='https://blog.tennisatw.com/about/']",
+			"selector": ".menu-item-关于---about",
 			"text": [
 				"这里有更多有关Tennisatw和我的信息 - more information about Tennisatw and me"
 			]
 		},
 		{
-			"selector": ".container a[href='https://blog.tennisatw.com/tags/%E8%AF%97-poem/']",
+			"selector": "a[href='/tags/%E8%AF%97-poem/']",
 			"text": [
 				"Tennisatw的诗 - Tennisatw's Poems"
 			]
 		},
 		{
-			"selector": ".container a[href='https://blog.tennisatw.com/tags/%E9%9A%8F%E6%83%B3-thoughts/']",
+			"selector": "a[href='/tags/%E9%9A%8F%E6%83%B3-thoughts/']",
 			"text": [
 				"Tennisatw的各种奇思和小随笔 - Tennisatw's various thoughts and short essays"
 			]
 		},
 		{
-			"selector": ".container a[href='https://blog.tennisatw.com/tags/%E6%97%A5%E5%B8%B8-daily/']",
+			"selector": "a[href='/tags/%E6%97%A5%E5%B8%B8-daily/']",
 			"text": [
 				"Tennisatw的一些日常生活的分享 - Tennisatw's shares of daily life"
 			]
 		},
 		{
-			"selector": ".container a[href='https://blog.tennisatw.com/tags/%E6%8A%80%E6%9C%AF-technology/']",
+			"selector": "a[href='/tags/%E6%8A%80%E6%9C%AF-technology/']",
 			"text": [
 				"Tennisatw分享一些学到的小东西的地方 - A place where Tennisatw shares some useful skills"
 			]
 		},
 		{
-			"selector": ".container a[href='https://blog.tennisatw.com/tags/%E7%BC%96%E7%A8%8B-programming/']",
+			"selector": "a[href='/tags/%E7%BC%96%E7%A8%8B-programming/']",
 			"text": [
 				"Tennisatw分享代码的地方 - A place where Tennisatw shares code"
 			]
 		},
 		{
-			"selector": ".container a[href='https://blog.tennisatw.com/tags/%E6%8E%A8%E8%8D%90-recommendation/']",
+			"selector": "a[href='/tags/%E6%8E%A8%E8%8D%90-recommendation/']",
 			"text": [
 				"Tennisatw的推荐，什么都可能有 - Tennisatw's recommendations, could be anything"
 			]
 		},
 		{
-			"selector": ".container a[href='https://blog.tennisatw.com/tags/%E6%95%8F%E6%84%9F-sensitive/']",
+			"selector": "a[href='/tags/%E6%95%8F%E6%84%9F-sensitive/']",
 			"text": [
 				"有点敏感的文章，仅有纯英文版 - Articles contain sensitive content. Contact Tennisatw for the original text."
 			]
